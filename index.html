@@ -1,0 +1,77 @@
+<html>
+    <head>
+      <title>Sound Identification Web App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+  
+    <body>
+      <div class = "col-xs-12 header_div text-center">
+        <h2>Sound of animal</h2>
+        <p>Note: Record the animal's voise and the machine will recognize it</p>
+      </div>
+      <div class = "main_div">
+        <center>
+          <br>
+          <button class="btn btn-warning" onclick="startClassification();">START</button>
+          <h3 id="result_label">I can hear - </h3>
+          <h4 id="result_confidence">Accuary - </h4>
+          <br>
+          <img src="cow.png"     id="cow" width="300" height="300">
+          <img src="cat.png"     id="cat" width="300" height="300">
+          <img src="dog.png"     id="dog" width="300" height="300">
+          <img src="goat.png"   id="goat" width="300" height="300">
+          <img src="horce.png" id="horce" width="300" height="300">
+          <img src="mouse.png" id="mouse" width="300" height="300">
+          <img src="pig.png"     id="pig" width="300" height="300">
+
+        </center>
+      </div>
+  <br>
+      <div class="animal">
+        <span id="cow">
+          Cow
+        </span>
+        <span id="cat"> 
+          Cat
+        </span>
+        <span id="dog">
+          Dog
+        </span>
+        <span id="goat">
+          Goat
+        </span>
+        <span id="horce">
+          Horse
+        </span>
+        <span id="mouse">
+          Mouse
+        </span>
+        <span id="pig">
+          Pig
+        </span>
+      </div
+      <br>
+  
+      <div class="copy_right_footer">
+        Developed by Kanishk Kapadia
+      </div>
+        
+  <script src="main.js"></script>
+    </body>
+  </html>
+  
+  
+  
+  
+  
+  
+  
+  
+   
+  
+  
